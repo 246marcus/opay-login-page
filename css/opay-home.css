@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding: .2rem;
+    background-color: rgb(252, 241, 241);
+}
+
+header{
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+figure{
+    display: flex;
+    gap: .2rem;
+}
+
+figure img{
+    padding: 0rem;
+    margin-top: 0.8rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+figure p{
+    font-size: .9rem;
+    margin-top: 1.5rem;
+}
+
+section{
+    display: flex;
+    
+    gap: 1.7rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+}
+
+section img{
+    width: 2rem;
+    height: 1.5rem;
+
+}
+
+.aside{
+    padding: .2rem;
+    border-radius: 3rem;
+    width:23rem;
+    color: rgb(255, 166, 1);
+    background-color: hsla(39, 99%, 50%, 0.1);
+    border: none;
+}
+
+.availableBalance {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    background-color: rgb(1, 188, 119);
+    color: white;
+    padding: 1.0rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    margin-top: .5rem;
+}
+
+.viewBalance{
+    font-size:1.5rem;
+    font-weight: bolder;
+}
+
+.balance, .history{
+    border: none;
+    color: inherit;
+    background-color: inherit;
+
+}
+
+.balance, .addMoney{
+    border-radius: 3rem;
+    padding: .5rem;
+    border: none;
+    background-color: white;
+}

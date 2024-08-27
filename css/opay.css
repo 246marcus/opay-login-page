@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    min-height: 100%;
+
+}
+
+h1{
+    margin: 2rem;
+    font-size: 3rem;
+    display: flex;
+    place-content: center;
+    color: rgb(1, 188, 119);
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+}
+
+.first p{
+    margin-top: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+
+img{
+    display: block;
+    margin: auto;
+    align-items: center;
+    height: 5rem;
+    width: 7rem;
+}
+
+figure img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.second{
+    margin-top: 2rem;
+}
+
+input{
+    background-color: white;
+    font-size: 0.9rem;
+    height: 2rem;
+    width: 20rem;
+    border: 3px solid rgb(1, 188, 119);
+    border-radius: 0.5rem;
+}
+
+.password-container{
+    position: relative;
+}
+
+.fa-eye{
+    position: absolute;
+    top: 28%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgrey;
+}
+
+
+.second a{
+    color: rgb(1, 188, 119);
+    text-decoration: none;
+}
+
+.second p{
+    text-align: end;
+    margin-top: 1rem;
+}
+
+button{
+    display: block;
+    margin-inline: auto;
+    margin-top: 2rem;
+    background-color: rgb(1, 188, 119);
+    color: white;
+    border-radius: 3rem;
+    width: 17rem;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.text {
+    margin-bottom: 2rem;
+    color: rgb(1, 188, 119);
+    text-align: center;
+}
+
+.licensed{
+    margin-bottom: 2rem;
+}
+
+@media(min-width:400px){
+    h1{
+        font-size: 6rem;
+    }
+
+    img{
+        height: 6rem;
+        width: 10rem;
+    }
+    
+    figure img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .first p{
+        margin-top: 2rem;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    input{
+        background-color: white;
+        font-size: 1.5rem;
+        height: 3.5rem;
+        width: 25rem;
+    }
+
+    .second p{
+        text-align: end;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    button{
+        border-radius: 3rem;
+        width: 15rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+    
+    .licensed{
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+@media(min-width:730px){
+
+    h1{
+        margin: rem;
+        font-size: 7rem;
+    }
+
+    img{
+        height: 8rem;
+        width: 10rem;
+    }
+    
+    figure img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .first p{
+        margin-top: 2rem;
+        color: black;
+        font-size: 2rem;
+    }
+
+    input{
+        background-color: white;
+        font-size: 1.5rem;
+        height: 4rem;
+        width: 45rem;
+    }
+
+    .second p{
+        text-align: end;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    button{
+    
+        border-radius: 3rem;
+        width: 25rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 2rem;
+    }
+    
+    .licensed{
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and(min-width:820px) {
+    h1{
+        margin: 3rem;
+        font-size: 10rem;
+    }
+
+    img{
+        height: 8rem;
+        width: 10rem;
+    }
+    
+    figure img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .first p{
+        margin-top: 2rem;
+        color: black;
+        font-size: 2rem;
+    }
+
+    input{
+        background-color: white;
+        font-size: 1.5rem;
+        height: 4rem;
+        width: 45rem;
+    }
+
+    .second p{
+        text-align: end;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    button{
+    
+        border-radius: 3rem;
+        width: 25rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 2rem;
+    }
+    
+    .licensed{
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+
+    h1{
+        margin: 0rem;
+        font-size: 5rem;
+    }
+
+    img{
+        margin-top: 2rem;
+        height: 5rem;
+        width: 10rem;
+    }
+    
+    figure img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .first p{
+        margin-top: 2rem;
+        color: black;
+        font-size: 2rem;
+    }
+
+    input{
+        background-color: white;
+        font-size: 1.5rem;
+        height: 4rem;
+        width: 45rem;
+    }
+
+    .second p{
+        text-align: end;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    button{
+    
+        border-radius: 3rem;
+        width: 25rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 2rem;
+    }
+    
+    .licensed{
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-height:600px){
+
+    h1{
+        margin: rem;
+        font-size: 7rem;
+    }
+
+    img{
+        height: 8rem;
+        width: 10rem;
+    }
+    
+    figure img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .first p{
+        margin-top: 2rem;
+        color: black;
+        font-size: 2rem;
+    }
+
+    input{
+        background-color: white;
+        font-size: 1.5rem;
+        height: 4rem;
+        width: 45rem;
+    }
+
+    .second p{
+        text-align: end;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    button{
+    
+        border-radius: 3rem;
+        width: 30rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .licensed{
+        margin-bottom: 2.5rem;
+        font-size: 1.5rem;
+    }
+}
